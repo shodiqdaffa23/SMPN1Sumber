@@ -31,7 +31,7 @@
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Profile <span class="glyphicon glyphicon-chevron-down"> </span></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Profile <span class="caret"> </span></a>
 							<ul class="dropdown-menu">
 								<li><a href="#">Sambutan Kepsek</a></li>
 								<li><a href="#">Profil Kepala Sekolah</a></li>
@@ -42,7 +42,7 @@
 							</ul>
 						</li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Informasi <span class="glyphicon glyphicon-chevron-down"></span></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Informasi <span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="#">Berita</a></li>
 								<li><a href="#">PPDB</a></li>
@@ -50,7 +50,7 @@
 							</ul>
 						</li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ekstrakurikuler <span class="glyphicon glyphicon-chevron-down"></span></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ekstrakurikuler <span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="#">Paskibra</a></li>
 								<li><a href="#">Pramuka</a></li>
@@ -63,7 +63,7 @@
 							</ul>
 						</li>
 						<li class="dropdown">
-							<a href="#" data-toggle="dropdown" class="dropdown-toggle">Mading <span class="glyphicon glyphicon-chevron-down"></span></a>
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle">Mading <span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="#">Puisi</a></li>
 								<li><a href="#">Cerpen</a></li>
