@@ -32,12 +32,13 @@
 					<article>
 						<div class="clear post">
 							<h4 class="post-title">Upacara Pembukaan</h4>
-							<img src="style/img/logo.png">
+							<img src="style/img/no-image.jpg">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium perferendis quaerat iusto quibusdam optio molestiae corporis quisquam rerum fuga iste incidunt hic numquam doloremque repellat ab ipsam voluptas animi neque, praesentium ipsa sapiente ea, voluptatem deserunt. Ipsum quas aliquid ab. <a href="">Lihat Selengkapnya ></a></p>
 						</div>
+						<hr>
 						<div class="clear post">
 							<h4 class="post-title">Upacara Pembukaan</h4>
-							<img src="style/img/logo.png">
+							<img src="style/img/no-image.jpg">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo porro beatae debitis delectus, eius non ea repellendus earum. Provident, reiciendis, expedita. Esse molestiae rerum assumenda voluptatum consectetur perferendis saepe illum adipisci ipsam modi eos temporibus deserunt veniam quaerat ab odit impedit doloremque ad tenetur velit provident, porro praesentium. Quas, maxime. <a href="">Lihat Selengkapnya ></a></p>
 						</div>
 					</article>

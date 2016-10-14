@@ -21,7 +21,7 @@
 				</div>
 				<div class="collapse navbar-collapse navbar-justified" id="navbar-collapse">
 					<ul class="nav navbar-nav">
-						<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+						<li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Profile <span class="caret"> </span></a>
 							<ul class="dropdown-menu">
