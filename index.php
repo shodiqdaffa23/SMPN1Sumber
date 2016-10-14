@@ -83,11 +83,11 @@
 			<div class="container-fluid">
 				<div class="row">
 				<div class="col-md-3 content" style="padding: 0px;">
-					<h3 class="title"><span>-----</span></h3>
+					<h3 class="title"><span>Salam</span></h3>
 					<!-- <hr class="onepixel"> -->
 				</div>
 				<div class="col-md-6 content">
-					<h3 class="title"><span>BERITA</span></h3>
+					<h3 class="title"><span>Berita</span></h3>
 					<!-- <hr class="onepixel"> -->
 				</div>
 				<div class="col-md-3 content">
