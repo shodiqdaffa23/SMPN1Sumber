@@ -49,23 +49,35 @@ b.shadow{
     color: #000000;
     text-shadow: 2px 2px 4px #fff;
 }
-.navbar{
-	margin-bottom: 0px;
-}
 #header{
-	margin-bottom: 10px;
+	margin-top: 51px;
 }
-/*h3.title {
+h4.title {
 	padding: 0 0 8px 0;
 	-webkit-box-shadow: inset 0 -5px 0 0 #eeeeee;
 	box-shadow: inset 0 -5px 0 0 #eeeeee; 	
-}*/
-h3.title span{
+}
+h4.title span{
 	padding: 0 0 8px 0;
 	-webkit-box-shadow: inset 0 -5px 0 0 #5bc0de;
 	box-shadow: inset 0 -5px 0 0 #5bc0de;
 }
+.clear{
+  overflow: auto;
+}
+.login{
+  padding: 0px 10px;
+}
+.content{
+  background: #fff;
+}
 
+article h4.post-title{
+  font-weight: bold;
+}
+article p.post{
+  text-align: justify;
+}
  /*.content{
   	padding: 0px;
   }*/
