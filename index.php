@@ -9,15 +9,8 @@
 	<script src="style/bootstrap/js/bootstrap.js"></script>
 </head>
 <body>
-	<div class="container">
-	<div class="row">
-		<div class="col-xs-12 col-md-12">
-			<a href="#">
-				<img src="style/img/header.jpg" alt="" class="full">
-			</a>
-		</div>
-	</div>
-		<nav class="navbar navbar-inverse">
+	<nav class="navbar navbar-inverse">
+		<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
 						<span class="sr-only">Toggle Responsive</span>
@@ -78,7 +71,32 @@
 						<button type="submit" class="btn btn-info"><span class="glyphicon glyphicon-search"></span></button>
 					</form>
 				</div>
+				</div>
 		</nav>
+		<div class="container">
+	<div class="row" id="header">
+		<div class="col-xs-12 col-md-12 col-xs-12">
+				<img src="style/img/header.jpg" alt="" class="full">
+		</div>
+	</div>
+		
+			<div class="container-fluid">
+				<div class="row">
+				<div class="col-md-3 content" style="padding: 0px;">
+					<h3 class="title"><span>-----</span></h3>
+					<!-- <hr class="onepixel"> -->
+				</div>
+				<div class="col-md-6 content">
+					<h3 class="title"><span>BERITA</span></h3>
+					<!-- <hr class="onepixel"> -->
+				</div>
+				<div class="col-md-3 content">
+					<h3 class="title"><span>------</span></h3>
+					<!-- <hr class="onepixel"> -->
+				</div>
+				</div>
+			</div>
+		</div>
 		</div>
 </body>
 </html>
