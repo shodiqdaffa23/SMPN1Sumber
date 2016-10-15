@@ -46,9 +46,6 @@ body {
 	color: #fff;
 	background-color: rgba(91,192,222,.85);
 }
-/*#header{
-	margin-top: -50px;
-}*/
 h4.title {
 	padding           : 0 0 8px 0;
 	-webkit-box-shadow: inset 0 -5px 0 0 #eeeeee;
@@ -70,35 +67,45 @@ h4.title span{
 article img{
 	width: 100%;
  	height: 170px;
- 	float: left;
+}
+
+article p.post-body{
+	font-size: 13px;
 }
 
 article h4.post-title{
+	display: block;
 	font-weight: bold;
 }
 
-.recent-post ul {
+.recent ul {
 	list-style     : none;
 	font-size      : 14px;
 	text-decoration: none;
 	padding        : 0px 0px 0px 0px;
 }
-.recent-post ul > li {
+.recent ul > li {
 	-webkit-box-shadow: inset 0 -2px 0 0 #eee;
 	-moz-box-shadow   : inset 0 -2px 0 0 #eee;
 	-o-box-shadow     : inset 0 -2px 0 0 #eee;
 	box-shadow        : inset 0 -2px 0 0 #eee;
+	margin: 2px 0px;
 }
-.recent-post ul > li > a{
+.recent ul > li > a{
   display: block;
-  padding: 0px 3px;
+  padding: 5px 5px;
   line-height: 35px;
   text-decoration: none;
   color: #000;
+  border-left: 5px solid #5bc0de;
+  transition: 0.4s;
 }
-.recent-post ul > li:hover{
+.recent ul > li > a:hover{
+  transition: 0.2s;
+  border-left: 13px solid #5bc0de;
+}
+.recent ul > li:hover{
   text-decoration: none;
-  background: #eee;
   color: #000;
 }
 

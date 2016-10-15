@@ -35,15 +35,15 @@
 						<div class="panel-body">
 							<h4 class="title"><span><b>News</b></span></h4>
 							<article>
-								<div class="clear post panel">
+								<div class="post panel">
 									<img src="style/img/no-image.jpg">
 									<h4 class="post-title">Upacara Pembukaan</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium perferendis quaerat iusto quibusdam optio molestiae corporis quisquam rerum fuga iste incidunt hic numquam doloremque repellat ab ipsam voluptas animi neque, praesentium ipsa sapiente ea, voluptatem deserunt. Ipsum quas aliquid ab. <a href="">Lihat Selengkapnya ></a></p>
+									<p class="post-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium perferendis quaerat iusto quibusdam optio molestiae corporis quisquam rerum fuga iste incidunt hic numquam doloremque repellat ab ipsam voluptas animi neque, praesentium ipsa sapiente ea, voluptatem deserunt. Ipsum quas aliquid ab. <a href="">Lihat Selengkapnya ></a></p>
 								</div>
-								<div class="clear post panel">
+								<div class="post panel">
 									<img src="style/img/no-image.jpg">
 									<h4 class="post-title">Upacara Pembukaan</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo porro beatae debitis delectus, eius non ea repellendus earum. Provident, reiciendis, expedita. Esse molestiae rerum assumenda voluptatum consectetur perferendis saepe illum adipisci ipsam modi eos temporibus deserunt veniam quaerat ab odit impedit doloremque ad tenetur velit provident, porro praesentium. Quas, maxime. <a href="">Lihat Selengkapnya ></a></p>
+									<p class="post-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo porro beatae debitis delectus, eius non ea repellendus earum. Provident, reiciendis, expedita. Esse molestiae rerum assumenda voluptatum consectetur perferendis saepe illum adipisci ipsam modi eos temporibus deserunt veniam quaerat ab odit impedit doloremque ad tenetur velit provident, porro praesentium. Quas, maxime. <a href="">Lihat Selengkapnya ></a></p>
 								</div>
 							</article>
 						</div>
@@ -53,7 +53,7 @@
 					<div class="panel">
 						<div class="panel-body">
 							<h4 class="title"><span><b>Recent Post</b></span></h4>
-							<div class="recent-post">
+							<div class="recent">
 								<ul>
 									<li><a href="#">Upacara Pembukaan</a></li>
 									<li><a href="#">Upacara Pembukaan</a></li>
@@ -66,6 +66,13 @@
 					<div class="panel">
 						<div class="panel-body">
 							<h4 class="title"><span><b>Recent Comment</b></span></h4>
+							<div class="recent">
+								<ul>
+									<li><a href="#">Hai</a></li>
+									<li><a href="#">Halo</a></li>
+									<li><a href="#">Halo</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
