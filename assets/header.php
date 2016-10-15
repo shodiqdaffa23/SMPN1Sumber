@@ -8,34 +8,43 @@
 	<script src="style/jquery.min.js"></script>
 	<script src="style/bootstrap/js/bootstrap.js"></script>
 </head>
-<script type="text/javascript">
-		$("#slideshow > div:gt(0)").hide();
-
-setInterval(function() { 
-  $('#slideshow > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#slideshow');
-},  3000);
-</script>
 <body>
 	<div class="container">
-		<div class="row" id="header">
-			<div class="col-xs-12 col-md-12 col-xs-12">
-				<div id="slideshow">
-				   <div>
-				     <img src="style/img/header1.jpg" class="full">
-				   </div>
-				   <div>
-				     <img src="style/img/header2.jpg" class="full">
-				   </div>
-				   <div>
-				     <img src="style/img/header3.jpg" class="full">
-				   </div>
+		<div id="slideshow" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#slideshow" data-slide-to="0" class="active"></li>
+				<li data-target="#slideshow" data-slide-to="1"></li>
+				<li data-target="#slideshow" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="style/img/header1.jpg" alt="">
+					<div class="carousel-caption">
+						<h3>Upacara Pembukaan</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="style/img/header2.jpg" alt="">
+					<div class="carousel-caption">
+						<h3>Upacara Pembukaan</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="style/img/header3.jpg" alt="">
+					<div class="carousel-caption">
+						<h3>Upacara Pembukaan</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+					</div>
 				</div>
 			</div>
+			<a href="#slideshow" class="left carousel-control" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			</a>
+			<a href="#slideshow" class="right carousel-control" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
 		</div>
 		<nav class="navbar navbar-inverse ">
 				<div class="navbar-header">
@@ -44,7 +53,6 @@ setInterval(function() {
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<!-- <div class="navbar-brand">SMPN 1 Sumber</div> -->
 				</div>
 				<div class="collapse navbar-collapse navbar-justified" id="navbar-collapse">
 					<ul class="nav navbar-nav">

@@ -1,9 +1,6 @@
 body {
   background: #eee;
 }
-.full  {
-	width: 100%;
-}
 .navbar {
   border: 0px;
 }
@@ -129,7 +126,7 @@ ul.dropdown-menu  {
 }
 
 .main {
-	padding: 0px 0px 0px 0px;
+	padding: 0px;
 }
 ul.dropdown-menu > li > a{
   line-height: 40px;
@@ -150,19 +147,10 @@ ul.dropdown-menu > li > a{
 .content-footer ul>li{
 	list-style: none;
 }
-#slideshow { 
-    /*margin: 50px; */
-    position: relative; 
- /*   width: 240px; 
-    height: 240px;*/ 
-    /*padding: 0px; */
-    /*box-shadow: 0 0 20px rgba(0,0,0,0.4); */
+.carousel-caption {
+	background: rgba(0,0,0,0.5);
+	border-radius: 5px;
 }
-
-#slideshow > div { 
-    /*position: fixed; */
-/*    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px;*/ 
+.carousel-inner > .item > img{
+	width: 100%;
 }
