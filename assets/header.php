@@ -8,11 +8,33 @@
 	<script src="style/jquery.min.js"></script>
 	<script src="style/bootstrap/js/bootstrap.js"></script>
 </head>
+<script type="text/javascript">
+		$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
+</script>
 <body>
 	<div class="container">
 		<div class="row" id="header">
 			<div class="col-xs-12 col-md-12 col-xs-12">
-					<img src="style/img/header.jpg" class="full">
+				<div id="slideshow">
+				   <div>
+				     <img src="style/img/header1.jpg" class="full">
+				   </div>
+				   <div>
+				     <img src="style/img/header2.jpg" class="full">
+				   </div>
+				   <div>
+				     <img src="style/img/header3.jpg" class="full">
+				   </div>
+				</div>
 			</div>
 		</div>
 		<nav class="navbar navbar-inverse ">
