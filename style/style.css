@@ -50,51 +50,44 @@ body {
 	margin-top: -50px;
 }*/
 h4.title {
-	padding: 0 0 8px 0;
+	padding           : 0 0 8px 0;
 	-webkit-box-shadow: inset 0 -5px 0 0 #eeeeee;
-  -moz-box-shadow: inset 0 -5px 0 0 #eeeeee;  
-  -o-box-shadow: inset 0 -5px 0 0 #eeeeee;  
-	box-shadow: inset 0 -5px 0 0 #eeeeee; 	
+	-moz-box-shadow   : inset 0 -5px 0 0 #eeeeee;  
+	-o-box-shadow     : inset 0 -5px 0 0 #eeeeee;  
+	box-shadow        : inset 0 -5px 0 0 #eeeeee; 	
 }
 h4.title span{
-	padding: 0 0 8px 0;
+	padding           : 0 0 8px 0;
 	-webkit-box-shadow: inset 0 -5px 0 0 #5bc0de;
-  -moz-box-shadow: inset 0 -5px 0 0 #5bc0de;
-  -o-box-shadow: inset 0 -5px 0 0 #5bc0de;
-	box-shadow: inset 0 -5px 0 0 #5bc0de;
+	-moz-box-shadow   : inset 0 -5px 0 0 #5bc0de;
+	-o-box-shadow     : inset 0 -5px 0 0 #5bc0de;
+	box-shadow        : inset 0 -5px 0 0 #5bc0de;
 }
 .clear{
-  overflow: auto;
-}
-.login{
-  padding: 0px 10px;
-}
-.content{
-  background: #fff;
-  margin: -10px 0px 10px 0px;
+	overflow: auto;
 }
 
 article img{
-  width: 100%;
-  height: 170px;
-  float: left;
+	width: 100%;
+ 	height: 170px;
+ 	float: left;
 }
 
 article h4.post-title{
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .recent-post ul {
-  list-style: none;
-  font-size: 14px;
-  text-decoration: none;
-  padding: 0px 0px 0px 0px;
+	list-style     : none;
+	font-size      : 14px;
+	text-decoration: none;
+	padding        : 0px 0px 0px 0px;
 }
 .recent-post ul > li {
-  -webkit-box-shadow: inset 0 -2px 0 0 #eee;
-  -moz-box-shadow: inset 0 -2px 0 0 #eee;
-  -o-box-shadow: inset 0 -2px 0 0 #eee;
-  box-shadow: inset 0 -2px 0 0 #eee;
+	-webkit-box-shadow: inset 0 -2px 0 0 #eee;
+	-moz-box-shadow   : inset 0 -2px 0 0 #eee;
+	-o-box-shadow     : inset 0 -2px 0 0 #eee;
+	box-shadow        : inset 0 -2px 0 0 #eee;
 }
 .recent-post ul > li > a{
   display: block;
@@ -120,14 +113,21 @@ article h4.post-title{
   text-align: center;
 }
 
-article{
-  margin: 5px 0px;
-}
 
 ul.dropdown-menu  {
   padding: 0px;
 }
+.sideleft{
+	padding: 0px 10px 5px 0px;
+}
 
+.sideright{
+	padding: 0px 0px 5px 10px;
+}
+
+.main {
+	padding: 0px 0px 0px 0px;
+}
 ul.dropdown-menu > li > a{
   line-height: 40px;
 }
