@@ -1,10 +1,5 @@
 <?php require"assets/header.php" ?>
 	<div class="container">
-		<div class="row" id="header">
-			<div class="col-xs-12 col-md-12 col-xs-12">
-					<img src="style/img/header.jpg" class="full">
-			</div>
-		</div>
 		<div class="content">
 			<div class="container-fluid">
 				<div class="col-md-3">

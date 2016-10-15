@@ -9,19 +9,24 @@
 	<script src="style/bootstrap/js/bootstrap.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
+	<div class="container">
+		<div class="row" id="header">
+			<div class="col-xs-12 col-md-12 col-xs-12">
+					<img src="style/img/header.jpg" class="full">
+			</div>
+		</div>
+		<nav class="navbar navbar-inverse ">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<!-- <div class="navbar-brand"><img class="logo" src="style/img/logo.png">SMPN 1 Sumber</div> -->
+					<!-- <div class="navbar-brand">SMPN 1 Sumber</div> -->
 				</div>
 				<div class="collapse navbar-collapse navbar-justified" id="navbar-collapse">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Profile <span class="caret"> </span></a>
 							<ul class="dropdown-menu">
@@ -70,5 +75,5 @@
 						<button type="submit" class="btn btn-info"><span class="glyphicon glyphicon-search"></span></button>
 					</form>
 				</div>
-			</div>
-	</nav>
+			</nav>
+		</div>

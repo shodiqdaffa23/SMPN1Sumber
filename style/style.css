@@ -46,9 +46,9 @@ body {
 	color: #fff;
 	background-color: rgba(91,192,222,.85);
 }
-#header{
-	margin-top: 50px;
-}
+/*#header{
+	margin-top: -50px;
+}*/
 h4.title {
 	padding: 0 0 8px 0;
 	-webkit-box-shadow: inset 0 -5px 0 0 #eeeeee;
@@ -71,7 +71,7 @@ h4.title span{
 }
 .content{
   background: #fff;
-  margin: 5px 0px 5px 0px;
+  margin: -10px 0px 10px 0px;
 }
 
 article img{
