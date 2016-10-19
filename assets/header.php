@@ -3,10 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>SMPN 1 Sumber</title>
-	<link rel="stylesheet" href="style/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="style/css/bootstrap.css">
 	<link rel="stylesheet" href="style/style.css">
 	<script src="style/jquery.min.js"></script>
-	<script src="style/bootstrap/js/bootstrap.js"></script>
+	<script src="style/js/bootstrap.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
