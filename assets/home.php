@@ -1,4 +1,4 @@
-<div class="main col-md-6">
+<div class="main col-md-8">
 	<article>
 		<div class="post panel">
 			<div class="panel-body">

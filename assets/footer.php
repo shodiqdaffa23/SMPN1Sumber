@@ -1,4 +1,3 @@
-	<div class="container">
 		<div class="content-footer col-xs-12 col-sm-12">
 			<h4 class="title-footer">Kontak Sekolah</h4>
 			<ul>
@@ -12,6 +11,5 @@
 				Copyright 2016
 			</div>
 		</footer>
-	</div>
 </body>
 </html>

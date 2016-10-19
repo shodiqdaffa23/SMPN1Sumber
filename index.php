@@ -1,6 +1,7 @@
 <?php require"assets/header.php" ?>
-	<div class="container">
-		<div class="sideleft col-md-3">
+	<div class="container-fluid content">
+		<?php include 'assets/home.php' ?>
+		<div  class="sideright col-md-4">
 			<div class="panel">
 				<div class="panel-body">
 					<h4 class="title"><b>LOGIN</b></h4>
@@ -10,7 +11,7 @@
 								<input class="form-control" type="text" id="username" placeholder="Masukkan Username">
 							</div>
 							<div class="form-group">
-								<input type="passwod" id="password" class="form-control" placeholder="Masukkan Password">
+								<input type="password" id="password" class="form-control" placeholder="Masukkan Password">
 							</div>
 							<div class="form-group pull-right">
 								<button class="btn btn-info">Login</button>
@@ -20,14 +21,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="panel">
-				<div class="panel-body">
-					<h4 class="title"><b>SALAM PEMBUKA</b></h4>
-				</div>
-			</div>	
-		</div>
-		<?php include 'assets/home.php' ?>
-		<div  class="sideright col-md-3">
 			<div class="panel">
 				<div class="panel-body">
 					<h4 class="title"><b>RECENT POST</b></h4>
