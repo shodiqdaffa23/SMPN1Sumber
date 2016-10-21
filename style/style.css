@@ -6,7 +6,7 @@
 	font-family: Roboto;
 }
 body {
-  background-color: #efefef;
+  background-color: #dde6ed;
 }
 .navbar {
   border: 0px;
@@ -20,12 +20,12 @@ body {
 	padding-right: 15px;
 }
 .btn-info{
-	background-color: #3eb8f5;
+	background-color: #00695C;
 	border: 0px;
 	transition: 0.4s;
 }
 .btn-info:hover{
-	background-color: #17A6F2;
+	background-color: #02564c;
 	border: 0px;
 	transition: 0.4s;
 }
@@ -35,10 +35,12 @@ body {
 	border-radius: 0px;
 	border-color: transparent;
 }
+.navbar-inverse .navbar-nav > .active > a:hover{
+	background-color: #00695C;
+}
 .navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus{
-	background-color: #17A6F2;
+	background-color: #00695C;
 	color: #fff;
 }
 .navbar-inverse .navbar-nav > li > a,
@@ -47,26 +49,28 @@ body {
 }
 
 .navbar-inverse .navbar-nav > li> a:hover{
-	background-color: #17A6F2;
+	background-color: #00695C;
 	transition: 0.3s;
 }
-
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus{
-	background-color: #17A6F2;
 	color: #fff;
 	transition: 0.3s;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-  color: #000;	
+  color: #000;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu {
   background-color: #fff;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu li>a:hover{
-	color: #fff;
-	background-color: #17A6F2;
+	color: #00695C;
+	background-color: none;
+}
+.kepsek{
+	width: 245px;
+	height: 160px;
 }
 h4.title{
 	color: #494949;
@@ -81,9 +85,11 @@ article p.post-body{
 	color: #7f7f7f;
 }
 
-article h4.post-title{
+article h4.post-title a{
 	display: block;
 	font-weight: bold;
+	text-decoration: none;
+	color: #494949;
 }
 
 .recent ul {
@@ -105,12 +111,12 @@ article h4.post-title{
   line-height: 25px;
   text-decoration: none;
   color: #000;
-  border-left: 10px solid #17A6F2;
+  border-right: 10px solid #00695C;
   transition: 0.4s;
 }
 .recent ul > li > a:hover{
   transition: 0.2s;
-  border-left: 15px solid #17A6F2;
+  border-right: 20px solid #00695C;
 }
 .recent ul > li:hover{
   text-decoration: none;

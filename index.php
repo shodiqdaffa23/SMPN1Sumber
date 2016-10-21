@@ -22,7 +22,9 @@
 			</div>
 			<div class="panel">
 				<div class="panel-body">
-					<h4 class="title"><b>SALAM PEMBUKA</b></h4>
+					<h4 class="title"><b>Kepala Sekolah</b></h4>
+					<img class="kepsek" src="style/img/kepsek.jpg" alt="">
+					<p>Sosok yang satu ini sudah tidak asing di lingkungan kampus SMP Negeri 1 Sumber. <b>Dr. H. Mashuri, M.Pd. </b> supel dalam berkomunikasi membuat beliau mudah dikenal baik oleh siswa-siswi maupun urang tua sisw <a href="#">Lihat selengkapnya ></a></p>
 				</div>
 			</div>	
 		</div>

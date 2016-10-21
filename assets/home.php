@@ -2,7 +2,7 @@
 	<article>
 		<div class="post panel">
 			<div class="panel-body">
-				<h4 class="post-title">Upacara pembukaan MPLS di SMPN 1 Sumber Tahun Pelajaran 2016-2017</h4>
+				<h4 class="post-title"><a href="">Upacara pembukaan MPLS di SMPN 1 Sumber Tahun Pelajaran 2016-2017</a></h4>
 				<p><span class="glyphicon glyphicon-calendar"></span> Senin, 18-Jul-2016 </p>
 				<img src="style/img/MPLS-2016-850x450.jpg">
 				<p class="post-body">Sumber – 18/07/2016 Memasuki hari pertama sekolah-sekolah di Kabupaten Cirebon serentak menyelenggarakan Masa Pengenalan Lingkungan Sekolah (MPLS) pada tahun ajaran ... <a href="">Lihat Selengkapnya ></a></p>
