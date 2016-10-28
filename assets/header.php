@@ -88,12 +88,24 @@
 				</div>
 				<div class="item ">
 					<img src="style/img/header1.jpg" alt="">
+					<div class="carousel-caption">
+						<h3>Upacara pembukaan MPLS di SMPN 1 Sumber Tahun Pelajaran 2016-2017</h3>
+						<p>Memasuki hari pertama sekolah-sekolah di Kabupaten Cirebon serentak menyelenggarakan.</p>
+					</div>
 				</div>
 				<div class="item">
 					<img src="style/img/header2.jpg" alt="">
+					<div class="carousel-caption">
+						<h3>Pembagian Raport Kelas 7, 8 dan Rapat Orang Tua Siswa</h3>
+						<p>Seluruh sekolah mulai dari tingkat Sekolah Dasar (SD), Sekolah Menengah Pertama (SMP)</p>
+					</div>
 				</div>
 				<div class="item">
 					<img src="style/img/header3.jpg" alt="">
+					<div class="carousel-caption">
+						<h3>SMPN 1 Sumber mengadakan Pesantren Kilat</h3>
+						<p>Dalam rangka meningkatkan keimanan serta ketaqwaan terhadap Tuhan Yang Maha Esa sekaligus bagian pembelajaran kepada siswa siswiDalam rangka meningkatkan keimanan serta ketaqwaan terhadap Tuhan Yang Maha Esa sekaligus bagian pembelajaran kepada siswa siswi</p>
+					</div>
 				</div>
 				<a href="#slideshow" class="left carousel-control" role="button" data-slide="prev">
 					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>

@@ -168,7 +168,7 @@ ul.dropdown-menu > li > a{
 	list-style: none;
 }
 .glyphicon-calendar{
-	color: #fff;
+	color: #04929c;
 }
 .carousel-inner > .item > img {
 	width: 100%;
@@ -181,4 +181,15 @@ ul.dropdown-menu > li > a{
 }
 .navbar-brand{
 	padding:0px 0px;
+}
+.carousel-caption{
+	background: #04929c;
+}
+@media (max-width: 767px){
+	.carousel-caption{
+		-o-visibility: hidden;
+		-moz-visibility: hidden;
+		-webkit-visibility: hidden;	
+		visibility: hidden;
+	}
 }
