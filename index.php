@@ -1,11 +1,12 @@
 <?php require"assets/header.php" ?>
-	<div class="container">
+	<div class="container-fluid content">
 		<div class="sideleft col-md-3">
 			<div class="panel">
-				<div class="panel-body">
+				<div class="panel-heading">
 					<h4 class="title"><b>LOGIN</b></h4>
-					<div class="clear">	
-						<form>
+					</div>
+					<div class="panel-body">	
+						<form class="clearfix">
 							<div class="form-group">
 								<input class="form-control" type="text" id="username" placeholder="Masukkan Username">
 							</div>
@@ -17,12 +18,11 @@
 								<button class="btn btn-info">Sign Up</button>
 							</div>
 						</form>
-					</div>
 				</div>
 			</div>
 			<div class="panel">
 				<div class="panel-body">
-					<h4 class="title"><b>Kepala Sekolah</b></h4>
+					<h4 class="title"><b>KEPALA SEKOLAH</b></h4>
 					<img class="kepsek" src="style/img/kepsek.jpg" alt="">
 					<p>Sosok yang satu ini sudah tidak asing di lingkungan kampus SMP Negeri 1 Sumber. <b>Dr. H. Mashuri, M.Pd. </b> supel dalam berkomunikasi membuat beliau mudah dikenal baik oleh siswa-siswi maupun urang tua sisw <a href="#">Lihat selengkapnya ></a></p>
 				</div>

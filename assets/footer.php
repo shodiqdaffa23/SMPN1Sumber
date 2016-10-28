@@ -1,4 +1,3 @@
-	<div class="container">
 		<div class="content-footer col-xs-12 col-sm-12">
 			<h4 class="title-footer">Kontak Sekolah</h4>
 			<ul>
@@ -7,11 +6,10 @@
 				<li><b>E-Mail : </b>smpn1sumber_153@yahoo.com</li>
 			</ul>
 		</div>	
-		<footer class="footer">
+		<footer class="footer col-md-12">
 			<div class="text-footer">
 				Copyright 2016
 			</div>
 		</footer>
-	</div>
 </body>
 </html>
