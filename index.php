@@ -1,7 +1,7 @@
 <?php require"assets/header.php" ?>
 	<div class="container-fluid content">
 		<div class="sideleft col-md-3">
-			<div class="panel">
+			<!-- <div class="panel">
 				<div class="panel-heading">
 					<h4 class="title"><b>LOGIN</b></h4>
 					</div>
@@ -19,12 +19,24 @@
 							</div>
 						</form>
 				</div>
+			</div> -->
+			<div class="panel">
+				<div class="panel-body">
+					<h4 class="title">AGENDA SEKOLAH</h4>
+				</div>
 			</div>
 			<div class="panel">
 				<div class="panel-body">
-					<h4 class="title"><b>KEPALA SEKOLAH</b></h4>
-					<img class="kepsek" src="style/img/kepsek.jpg" alt="">
-					<p>Sosok yang satu ini sudah tidak asing di lingkungan kampus SMP Negeri 1 Sumber. <b>Dr. H. Mashuri, M.Pd. </b> supel dalam berkomunikasi membuat beliau mudah dikenal baik oleh siswa-siswi maupun urang tua sisw <a href="#">Lihat selengkapnya ></a></p>
+					<h4 class="title">KEGIATAN TERBARU</h4>
+				</div>
+			</div>
+			<div class="panel">
+				<div class="panel-body">
+					<h4 class="title">KEPALA SEKOLAH</h4>
+					<div class="recent">
+						<img class="kepsek" src="style/img/kepsek.jpg" alt="">
+						<p>Sosok yang satu ini sudah tidak asing di lingkungan kampus SMP Negeri 1 Sumber. <b>Dr. H. Mashuri, M.Pd. </b> supel dalam berkomunikasi membuat beliau mudah dikenal baik oleh siswa-siswi maupun urang tua sisw <br><a href="#" class="btn btn-info">Lihat selengkapnya ></a></p>
+					</div>
 				</div>
 			</div>	
 		</div>
@@ -32,7 +44,7 @@
 		<div  class="sideright col-md-3">
 			<div class="panel">
 				<div class="panel-body">
-					<h4 class="title"><b>RECENT POST</b></h4>
+					<h4 class="title">ARTIKEL TERBARU</h4>
 					<div class="recent">
 						<ul>
 							<li><a href="#">Upacara pembukaan MPLS di SMPN 1 Sumber Tahun Pelajaran 2016-2017</a></li>
@@ -45,7 +57,7 @@
 			</div>
 			<div class="panel">
 				<div class="panel-body">
-					<h4 class="title"><b>RECENT COMMENT</b></h4>
+					<h4 class="title">KOMEN TERBARU</h4>
 					<div class="recent">
 						<ul>
 							<li><a href="#">Hai</a></li>

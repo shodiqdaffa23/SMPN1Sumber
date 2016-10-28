@@ -22,28 +22,20 @@ body {
 	padding-right: 15px;
 }
 .btn-info{
-	background-color: #04929c;
+	background-color: #2980b9;
 	border: 0px;
 	transition: 0.4s;
 }
 .btn-info:hover{
-	background-color: rgba(4,146,156,0.8);
+	background-color: rgba(41,128,185,0.8);
 	border: 0px;
 	transition: 0.4s;
 }
 .navbar-inverse{
-	background-color: #04929c;
+	background-color: #2980b9;
 	color: #fff;
 	border-radius: 0px;
 	border-color: transparent;
-}
-.navbar-inverse .navbar-nav > .active > a:hover{
-	background-color: #00695C;
-}
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:focus{
-	background-color: #00695C;
-	color: #fff;
 }
 .navbar-inverse .navbar-nav > li > a,
 .navbar-inverse .navbar-brand{
@@ -70,11 +62,11 @@ body {
   background-color: #fff;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu li>a:hover{
-	background-color: #04929c;
-	color: #fff;
+	background-color: #fff; 
+	color: #2980b9;
 }
 .footer{
-	background-color: #04929c;
+	background-color: #2980b9;
 	color: #fff;
 	width: 100%;
 	display: inline-block;
@@ -87,6 +79,7 @@ body {
 }
 h4.title{
 	color: #494949;
+	font-weight: bolder;
 }
 article img{
 	width: 100%;
@@ -100,7 +93,7 @@ article p.post-body{
 
 article h4.post-title a{
 	display: block;
-	font-weight: bold;
+	font-weight: lighter;
 	text-decoration: none;
 	color: #494949;
 }
@@ -123,12 +116,12 @@ article h4.post-title a{
   line-height: 25px;
   text-decoration: none;
   color: #000;
-  border-left: 10px solid #04929c;
+  border-left: 10px solid #2980b9;
   transition: 0.4s;
 }
 .recent ul > li > a:hover{
   transition: 0.2s;
-  border-left:  20px solid #04929c;
+  border-left:  20px solid #2980b9;
 }
 .recent ul > li:hover{
   text-decoration: none;
@@ -168,7 +161,7 @@ ul.dropdown-menu > li > a{
 	list-style: none;
 }
 .glyphicon-calendar{
-	color: #04929c;
+	color: #2980b9;
 }
 .carousel-inner > .item > img {
 	width: 100%;
@@ -183,7 +176,8 @@ ul.dropdown-menu > li > a{
 	padding:0px 0px;
 }
 .carousel-caption{
-	background: #04929c;
+	background-color: rgba(41,128,185,0.8);
+	border-radius: 5px;
 }
 @media (max-width: 767px){
 	.carousel-caption{
