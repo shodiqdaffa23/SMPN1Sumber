@@ -5,10 +5,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>SMPN 1 Sumber</title>
 	<link rel="stylesheet" href="style/bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" href="style/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="style/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="style/style.css">
 	<script src="style/jquery.min.js"></script>
 	<script src="style/bootstrap/js/bootstrap.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		    $(".dropdown").hover(            
+		        function() {
+		            $('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideDown("slow");
+		            $(this).toggleClass('open');        
+		        },
+		        function() {
+		            $('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideUp("fast");
+		            $(this).toggleClass('open');       
+		        }
+		    );
+		});
+	</script>
 </head>
 <body>
 		<nav class="navbar navbar-inverse navbar-custom">
