@@ -1,5 +1,5 @@
-ubah image header
-jeda per content
-2 footer
-isi recent comment
-isi pages
+img carousel 80%
+menu > carousel
+logo tengah
+text singkat
+gambar > menu

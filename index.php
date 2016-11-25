@@ -1,7 +1,7 @@
 <?php require"assets/header.php" ?>
 	<div class="container-fluid content">
 		<div class="sideleft col-md-3">
-			<!-- <div class="panel">
+			<div class="panel">
 				<div class="panel-heading">
 					<h4 class="title"><b>LOGIN</b></h4>
 					</div>
@@ -19,12 +19,12 @@
 							</div>
 						</form>
 				</div>
-			</div> -->
+			</div>
 			<div class="panel">
 				<div class="panel-body">
 					<h4 class="title"><b>KEPALA SEKOLAH</b></h4>
 					<img class="kepsek" src="style/img/kepsek.jpg" alt="">
-					<p>Sosok yang satu ini sudah tidak asing di lingkungan kampus SMP Negeri 1 Sumber. <b>Dr. H. Mashuri, M.Pd. </b> supel dalam berkomunikasi membuat beliau mudah dikenal baik oleh siswa-siswi maupun urang tua sisw <a href="#">Lihat selengkapnya ></a></p>
+					<p>Sosok yang satu ini sudah tidak asing di lingkungan kampus SMP Negeri 1 Sumber. <b>Dr. H. Mashuri, M.Pd. </b> supel dalam berkomunikasi..<a href="#">Lihat selengkapnya ></a></p>
 				</div>
 			</div>	
 		</div>
